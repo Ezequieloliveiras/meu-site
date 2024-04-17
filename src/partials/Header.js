@@ -125,6 +125,7 @@ function ResponsiveAppBar() {
                             Sites
                         </Button>
                         <Button
+                            href='/pages/contact'
                             sx={{ my: 2, color: 'white', display: 'block' }}>
                             Contato
                         </Button>
