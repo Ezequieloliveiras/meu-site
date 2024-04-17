@@ -80,6 +80,18 @@ function ResponsiveAppBar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
+                            <Box>
+
+                                <Button href='/'>Página Inicial</Button>
+                            </Box>
+                            <Box>
+
+                                <Button>Sites</Button>
+                            </Box>
+                            <Box>
+
+                                <Button href='/pages/contact'>Contato</Button>
+                            </Box>
 
                         </Menu>
                     </Box>
@@ -103,8 +115,8 @@ function ResponsiveAppBar() {
                         LOGO
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                    <Button
-                    href='/'
+                        <Button
+                            href='/'
                             sx={{ my: 2, color: 'white', display: 'block' }}>
                             Página Inicial
                         </Button>
